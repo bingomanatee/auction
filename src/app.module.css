@@ -1,0 +1,31 @@
+
+.userContainer {
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-content: space-between;
+    padding: 2px;
+    background-color: lightgray;
+    flex-basis: 400px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    gap: 2rem;
+}
+
+.userContainer > input {
+    flex: 1;
+}
+.userContainer > button {
+    flex: 0;
+    flex-basis: 100px;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.userContainerLabel {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0.8rem;
+}

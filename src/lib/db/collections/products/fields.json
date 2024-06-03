@@ -1,0 +1,18 @@
+{
+  "id": {
+    "type": "string",
+    "maxLength": 16
+  },
+  "name": {
+    "type": "string",
+    "maxLength": 200
+  },
+  "description": {
+    "type": "string",
+    "maxLength": 1000
+  },
+  "minimum": {
+    "type": "number",
+    "min": 0
+  }
+}
